@@ -78,7 +78,7 @@ public class WorkoutProgram {
         squat.getSets().add(new ExerciseSet(5, Util.round(squatTm * 0.65f, plateRound), unit, true));
         workout.add(squat);
         Exercise sumoDead = new Exercise("Sumo Dead");
-        sumoDead.getSets().add(new ExerciseSet(5, Util.round(deadliftTm * 0.5f, plateRound), unit));
+        sumoDead.getSets().add(new ExerciseSet(6, Util.round(deadliftTm * 0.5f, plateRound), unit));
         sumoDead.getSets().add(new ExerciseSet(5, Util.round(deadliftTm * 0.6f, plateRound), unit));
         sumoDead.getSets().add(new ExerciseSet(3, Util.round(deadliftTm * 0.7f, plateRound), unit));
         sumoDead.getSets().add(new ExerciseSet(5, Util.round(deadliftTm * 0.7f, plateRound), unit));
@@ -106,7 +106,7 @@ public class WorkoutProgram {
         ohp.getSets().add(new ExerciseSet(1, Util.round(pressTm * 0.95f, plateRound), unit, true));
         ohp.getSets().add(new ExerciseSet(3, Util.round(pressTm * 0.9f, plateRound), unit));
         ohp.getSets().add(new ExerciseSet(3, Util.round(pressTm * 0.85f, plateRound), unit));
-        ohp.getSets().add(new ExerciseSet(5, Util.round(pressTm * 0.8f, plateRound), unit));
+        ohp.getSets().add(new ExerciseSet(3, Util.round(pressTm * 0.8f, plateRound), unit));
         ohp.getSets().add(new ExerciseSet(5, Util.round(pressTm * 0.75f, plateRound), unit));
         ohp.getSets().add(new ExerciseSet(5, Util.round(pressTm * 0.7f, plateRound), unit));
         ohp.getSets().add(new ExerciseSet(5, Util.round(pressTm * 0.65f, plateRound), unit, true));
@@ -146,8 +146,8 @@ public class WorkoutProgram {
         deadlift.getSets().add(new ExerciseSet(3, Util.round(deadliftTm * 0.65f, plateRound), unit, true));
         workout.add(deadlift);
         Exercise frontSquat = new Exercise("Front Squat");
-        frontSquat.getSets().add(new ExerciseSet(5, Util.round(squatTm * 0.35f, plateRound), unit));
-        frontSquat.getSets().add(new ExerciseSet(3, Util.round(squatTm * 0.45f, plateRound), unit));
+        frontSquat.getSets().add(new ExerciseSet(6, Util.round(squatTm * 0.35f, plateRound), unit));
+        frontSquat.getSets().add(new ExerciseSet(5, Util.round(squatTm * 0.45f, plateRound), unit));
         frontSquat.getSets().add(new ExerciseSet(3, Util.round(squatTm * 0.55f, plateRound), unit));
         frontSquat.getSets().add(new ExerciseSet(5, Util.round(squatTm * 0.55f, plateRound), unit));
         frontSquat.getSets().add(new ExerciseSet(7, Util.round(squatTm * 0.55f, plateRound), unit));
